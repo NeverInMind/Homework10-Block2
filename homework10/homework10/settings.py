@@ -78,10 +78,10 @@ WSGI_APPLICATION = "homework10.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'homework10_postgres',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'Aa123456',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
